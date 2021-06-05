@@ -29,7 +29,7 @@ function getGear($input)
         $a22 = array("Pole (10' wooded)", 10);
         $a23 = array("Quill", 0);
         $a24 = array("Quill Knife", 0);
-        $a25 = array("Quiver or Bolt Case", 1);
+        $a25 = array("Quiver or Bolt Case", 1); 
         $a26 = array("Rations (dry) x1 week", 10);
         $a27 = array("Rope Hemp (50')", 5);
         $a28 = array("Rope Silk (50')", 2);
@@ -58,11 +58,11 @@ function getGear($input)
 
 function getRandomGear()
 {
-        $gearArray = array(0, 6, 9, 10, 17, 26, 34, 38, 39, 42);
+        $gearArray = array(0, 6, 14, 17, 26, 34, 38, 42);
 
-        $numberOfGear = rand(3, 12);
+        $numberOfGear = rand(5, 12);
 
-        $addToArray = array(1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 35, 36, 37, 40, 41, 43);
+        $addToArray = array(1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 35, 36, 37, 39, 40, 41, 43);
 
         shuffle($addToArray);
 
