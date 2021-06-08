@@ -7,6 +7,12 @@ A live version of the Basic Fantasy RPG Magic-User character generator is availa
 
 
 
+Update 1.02: 2021-06-08
+
+Launch Page added for the Basic Fantasy RPG Magic-User Generator version 2.
+
+
+
 Update 1.01: 2021-06-05
 
 Updates to attackBonus.php, classDetails.php and gear.php.
